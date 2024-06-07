@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-size: 0.9rem;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 !important;
+  align-items: center;
+  height: 100%;
+  width: 50vw;
+  li {
+      margin-inline: 2.5%;
+      white-space: nowrap;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between;
+    span {
+      margin-inline-start: -5%;
+    }
+  }
+}

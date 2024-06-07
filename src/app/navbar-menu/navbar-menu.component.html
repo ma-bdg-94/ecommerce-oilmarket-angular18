@@ -1,0 +1,12 @@
+<ul>
+  <li *ngFor="let item of menuItems">
+    <button mat-button>
+      <mat-icon
+        aria-hidden="false"
+        [attr.aria-label]="'Example ' + item.icon + ' icon'"
+        [fontIcon]="item.icon"
+      ></mat-icon
+      >{{ item.label }}
+    </button>
+  </li>
+</ul>
